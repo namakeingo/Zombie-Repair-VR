@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7902394917681692367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1096406222038285448}
+  - component: {fileID: 2851174445046929482}
+  - component: {fileID: 2503883764201472252}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1096406222038285448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7902394917681692367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2851174445046929482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7902394917681692367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee61c807772e644cae3fb65dbd26230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 7081051744339238355, guid: 3c45059142ff79c4f97316df7e22b639, type: 3}
+  itemPrefabs1:
+  - {fileID: 1298950336233899045, guid: ecaa0d4a1207c104bbac94ab718d3d39, type: 3}
+  - {fileID: 1729986954553755575, guid: 7c3d1095c6cdc9e41aa304565d8eb4e2, type: 3}
+  - {fileID: 8033791589121695706, guid: 39549f44f866bb14b970333208da945e, type: 3}
+  itemPrefabs2:
+  - {fileID: 1910865720214290833, guid: 67a154cce81ec0c489e21ddb68a45ebc, type: 3}
+  - {fileID: 474297834138408541, guid: 31ede3441d915c24bae65d512f2bcef4, type: 3}
+  - {fileID: 2598660527373186122, guid: cc0eb8491ec113149aa1d4f6577357e3, type: 3}
+  itemPrefabs3:
+  - {fileID: 8750761851258038012, guid: b90c48fd42afad446b5fb1186a450d5f, type: 3}
+  - {fileID: 6402486735112717778, guid: 3806de8f9e7a62041b8a6f1e26af4f11, type: 3}
+  - {fileID: 258146280539790415, guid: 25d97e37559696c47b36cccc3e34b323, type: 3}
+  - {fileID: 6852443229401356798, guid: 53a4285204b89eb479b6f97ec9d3ad2d, type: 3}
+  aliveEnemies: []
+  activeItems: []
+  gameActive: 0
+  spawnDistance: 10
+  startingEnemies: 0
+  enemySpawnInterval: 4
+  startingItems: 1
+  itemSpawnInterval: 12
+  enemiesKilled: 0
+--- !u!114 &2503883764201472252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7902394917681692367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb658ee5476e7e144a08776c0f2b0d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleMenuAction:
+    actionPath: 
+    needsReinit: 0
+  handType: 0
+  menuObject: {fileID: 0}
+  gameoverObject: {fileID: 0}
+  leftHand: {fileID: 0}
+  rightHand: {fileID: 0}
+  leftLaserPointer: {fileID: 0}
+  rightLaserPointer: {fileID: 0}
+  menuEnabled: 1
+  buttonScale: 1
+  hoverButtonScale: 1.2
+  table: {fileID: 0}
+  barrel: {fileID: 0}
+  handle: {fileID: 0}
+  magazine: {fileID: 0}

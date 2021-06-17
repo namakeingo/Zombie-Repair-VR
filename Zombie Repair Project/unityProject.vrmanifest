@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.alienblockgun.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "D:\\Users\\laf757\\OneDrive - University of Salford\\Assignments May\\17-05_VR\\VR_Project\\Zombie Repair\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Zombie Repair [Testing]"
+        }
+      }
+    }
+  ]
+}
